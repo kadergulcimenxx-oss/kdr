@@ -1,0 +1,24 @@
+# Yerel ortam dosyaları; örnek yalnızca güvenli yer tutucular içermelidir.
+.env
+.env.*
+!.env.example
+
+# Yerel sır klasörü ve yaygın özel anahtar dosyaları
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# İşletim sistemi ve düzenleyici geçici dosyaları
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Yerel günlükler
+*.log
+
+# Teknolojiye özgü dışlamaları araç seçildikten sonra ekleyin.
+# Bu dosya, izlenen dosyaları veya Git geçmişini temizlemez.
